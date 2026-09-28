@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('sw4zm-wnhw3.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Recomendado para optimizar la carga */
+}
+
+body {
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
