@@ -1,0 +1,41 @@
+footer svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}   
+
+body{
+    background-color: rgb(236, 212, 152);
+}
+
+header{
+    display: flex;
+    background-color: rgb(166, 234, 211);
+    align-content: center;
+}
+
+main{
+    background-color: rgb(207, 168, 243);
+}
+
+footer{
+    background-color: rgb(228, 195, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#togle-menu{
+    display: none;
+}
+
+.hamburger-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.hamburger-icon:hover {
+    color: #e94560;
+}
